@@ -1,0 +1,315 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* 아래부터 변경 */
+h2 {
+  color: #161616;
+  font-family: "Poppins", 'Noto Sans KR', sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 1em;
+  margin: 0 0 20px 0;
+}
+
+h3 {
+  color: #161616;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 8px;
+}
+
+.body {
+  padding: 0 20px;
+}
+
+.recentPost {
+
+  padding: 20px;
+}
+
+.postSet {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.post {
+  flex: 1; /* flex-grow: 1; flex-shrink: 1; flex-basis: 0; */
+  min-width: 250px; /* 아이템 최소 너비 */
+  max-width: 350px; /* 아이템 최대 너비 */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f7f7;
+}
+
+.post button {
+  background-color: transparent;
+  padding: 6px 12px 8px;
+  border-radius: 8px;
+  color: #161616;
+  border: 1px solid #161616;
+  font-family: "Poppins", 'Noto Sans KR', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 21px;
+  transition: ease 0.5s;
+  margin-top: 8px;
+}
+
+.post button:hover {
+  background-color: #161616;
+  color: #ffffff;
+}
+
+.post-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.post img {
+  width: 100%;
+  height: 200px;
+  background-image: url("https://makebct.net/wp-content/uploads/2024/12/111-1.png");
+  object-fit: fit;
+  transition: ease 1.5s;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.post:hover img {
+  transform: scale(1.5);
+}
+
+.post-content {
+  padding: 30px;
+}
+
+.post-tags {
+  display: flex;
+  flex-direction: row;
+}
+
+.post-tag {
+  background-color: #161616;
+  color: white;
+  font-family: "Poppins",'Noto Sans KR',sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  padding: 4px 8px 6px;
+}
+
+.post-date {
+  margin-top: 12px;
+  color: #a7a7a7;
+  font-family: "Poppins", 'Noto Sans KR', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.post-description {
+  margin-top: 12px;
+  color: #54595f;
+  font-family: "Poppins", 'Noto Sans KR', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.tags {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  gap: 10px;
+  justify-content: center
+}
+
+.tag {
+  padding: 5px;
+  border: none;
+  transition: all 0.5s ease;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 24px;
+  font-family: "Poppins",'Noto Sans KR',sans-serif;
+  color: #161616;
+  background-color: rgb(255, 243, 220);
+}
+
+.tag:hover {
+  color: white;
+  background-color: #161616;
+}
+
+.brands {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.brands a {
+  margin: 0px 10px;
+}
+
+footer {
+  padding: 16px 20px 10px 20px;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+footer p {
+  color: #ffffff;
+  font-family: "Poppins", 'Noto Sans KR', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+
+h1 {
+  color: #161616;
+  font-family: "Poppins", 'Noto Sans KR', sans-serif;
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 52px;
+}
+
+h1 a {
+  text-decoration: none;
+  color: #161616;
+}
+
+header {
+  padding: 5px 40px 10px 40px;
+  border: none;
+  border-bottom: 1px solid #54595f;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .title {
+  padding-top: 15px;
+}
+
+header .title p {
+  margin-bottom: 14px;
+  text-align: left;
+  color: #54595f;
+  font-family: "Poppins",'Noto Sans KR',sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+header .function {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+}
+
+header li {
+  padding: 7px 10px;
+  font-family: "Poppins",'Noto Sans KR',sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+
+.search button {
+  height: 48px;
+  width: 48px;
+  border: none;
+  background-color: #000000;
+  background-image: url();
+}
+
+.search input {
+  height: 48px;
+  width: 252px;
+  border: none;
+  background-color: #f1f1f1;
+  outline: none;
+  padding: 8px 16px;
+  color: #161616;
+  font-family: "Poppins",'Noto Sans KR',sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}

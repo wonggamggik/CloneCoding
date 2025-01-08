@@ -3,122 +3,352 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css"/>
     <title>makeBCT</title>
   </head>
   <body>
     <header>
-      <div>
+      <div class="title">
         <h1><a href="https://makebct.net/">makeBCT</a></h1>
         <p>#AI #OpenAI #Chatbot #Cloud #WordPress</p>
       </div>
-      <div>
+      <div class="function">
         <div class="list">
-          <nav>
             <ul>
-              <li>
-                <a />
-                <ul>
-                  <li></li>
-                </ul>
-              </li>
-              <li>
-                <a />
-                <ul>
-                  <li></li>
-                </ul>
-              </li>
-              <li>
-                <a />
-                <ul>
-                  <li></li>
-                </ul>
-              </li>
-              <li>
-                <a />
-              </li>
+              <li>AI 트레이닝 센터</li>
+              <li>클라우드</li>
+              <li>워드프레스</li>
+              <li>BCT AI Chatbot Q&A</li>
             </ul>
-          </nav>
         </div>
         <form class="search">
-          <label><input /></label>
-          <button></button>
+          <input type="text" placeholder="SEARCH"/>
+          <button>  
+            <svg xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 24 24" width="24" height="24" fill="white">
+            <path d="M23.707,22.293l-5.969-5.969a10.016,10.016,0,1,0-1.414,1.414l5.969,5.969a1,1,0,0,0,1.414-1.414ZM10,18a8,8,0,1,1,8-8A8.009,8.009,0,0,1,10,18Z"/>
+            </svg>
+        </button>
         </form>
       </div>
     </header>
 
-    <!-- Recent POST -->
-    <div class="recentPost">
-      <h2>Recent POST</h2>
-      <div class="postSet twoLine">
-        <article class="post">
-          <img src="https://makebct.net/wp-content/uploads/2024/12/111-1.png" />
-          <div>
-            <div class="tag">Python인공지능 챗봇 실전 개발</div>
-            <h3>플라스크 + 리액트 프로젝트 환경구축</h3>
-            <p class="date"></p>
-            <p class="description"></p>
-            <button>Read More</button>
-          </div>
-        </article>
+    <div class="body">
+        <!-- Recent POST -->
+      <div class="recentPost">
+        <h2>Recent POST</h2>
+        <div class="postSet">
+          <article class="post">
+            <div class="post-image">
+              <img src="https://makebct.net/wp-content/uploads/2024/12/111-1.png" />
+            </div>
+            <div class="post-content">
+              <div class="post-tags">
+                <div class="post-tag">Python</div>
+                <div class="post-tag">인공지능 챗봇 실전 개발</div>
+              </div>
+              <h3>플라스크 + 리액트 프로젝트 환경구축</h3>
+              <p class="post-date">2024년 December 12일</p>
+              <p class="post-description">프로젝트 구조는 다음과같습니다.프로젝트 폴더에 하위 폴더 백엔드 폴더와 프론트엔드 폴더를 정의합니다.백엔드 구성은 다음과같습니다.파이썬 프로젝트를 생성합니다.프로젝트를...</p>
+              <button>Read More</button>
+            </div>
+          </article>
+          <article class="post">
+            <div class="post-image">
+              <img src="https://makebct.net/wp-content/uploads/2024/11/5-2-768x463.png" />
+            </div>
+            <div class="post-content">
+              <div class="post-tags">
+                <div class="post-tag">Python</div>
+              </div>
+              <h3>자동화설비 코드 변경사항 및 관리자 모드 (2024-11-15)</h3>
+              <p class="post-date">2024년 November 15일</p>
+              <p class="post-description">관리자 모드가 추가되면서 main.py에 클래스가 2개 추가되었습니다.Class PasswordDialog : 이 클래스는 사용자에게 비밀번호를 입력받는 다이얼로그...</p>
+              <button>Read More</button>
+            </div>
+          </article>
+          <article class="post">
+            <div class="post-image">
+              <img src="https://makebct.net/wp-content/uploads/2024/11/6-1-768x463.png" />
+            </div>
+            <div class="post-content">
+              <div class="post-tags">
+                <div class="post-tag">Python</div>
+              </div>
+              <h3>자동화설비 데이터PC 코드 구조(2024-10-31)</h3>
+              <p class="post-date">2024년 November 15일</p>
+              <p class="post-description">데이터PC main.py 코드 구조입니다.Class UI_MainWindow : 이 클래스는 제품 품질을 식별하여 사용자가 실시간으로 모니터링을 할수있도록 사용자 인터페이스를...</p>
+              <button>Read More</button>
+            </div>
+          </article>
+          <article class="post">
+            <div class="post-image">
+              <img src="https://makebct.net/wp-content/uploads/2024/11/1-768x173.png" />
+            </div>
+            <div class="post-content">
+              <div class="post-tags">
+                <div class="post-tag">Python</div>
+              </div>
+              <h3>자동화설비 데이터PC 환경 설정</h3>
+              <p class="post-date">2024년 November 15일</p>
+              <p class="post-description">파이썬 3.11.0환경변수 설정파이참 커뮤니티 에디션 다운로드프로젝트 필수 라이브러리 다운로드QT5 환경 변수 추가PostgreSQL...</p>
+              <button>Read More</button>
+            </div>
+          </article>
+          <article class="post">
+            <div class="post-image">
+              <img src="https://makebct.net/wp-content/uploads/2024/11/14-768x349.png" />
+            </div>
+            <div class="post-content">
+              <div class="post-tags">
+                <div class="post-tag">Python</div>
+              </div>
+              <h3>자동화설비 구조 및 데이터PC 역할</h3>
+              <p class="post-date">2024년 November 15일</p>
+              <p class="post-description">자동화설비에 사용되는 하드웨어는 다음과같습니다.PLC : PLC는 자동화 설비의 제어를 담당하는 핵심 장치로, 프로그래밍을 통해 다양한 장비와 프로세스를 제어할 수 있습니다....</p>
+              <button>Read More</button>
+            </div>
+          </article>
+          <article class="post">
+            <div class="post-image">
+              <img src="https://makebct.net/wp-content/uploads/2024/11/image-7-768x312.png" />
+            </div>
+            <div class="post-content">
+              <div class="post-tags">
+                <div class="post-tag">BCT AI Chatbot 프로젝트</div>
+              </div>
+              <h3>BCT AI Chatbot 정식 버전 출시에 앞서</h3>
+              <p class="post-date">2024년 November 15일</p>
+              <p class="post-description">워드프레스 기반의 인공지능 대화형 AI챗봇 개발을 진행하면서 여러 시행착오를 해 왔는데, 다양한 피드백을 거쳐 현재 정리된 (BCT AI Chatbot 정식 버전 출시에 앞서) 해결해야...</p>
+              <button>Read More</button>
+            </div>
+          </article>
+          <article class="post">
+            <div class="post-image">
+              <img src="https://makebct.net/wp-content/uploads/2024/11/image-2.png" />
+            </div>
+            <div class="post-content">
+              <div class="post-tags">
+                <div class="post-tag">미분류</div>
+              </div>
+              <h3>BCT AI Chatbot과 카카오 챗봇 빌더의 차이점</h3>
+              <p class="post-date">2024년 November 11일</p>
+              <p class="post-description">사용자가 코드를 작성하지 않고도 직접 간편하게 챗봇을 설정하여 사용할 수 있게 해주는 서비스는 기존에도 존재했습니다. 그러나 BCT AI Chatbot은 GPT 등의 LLM을 챗봇에...</p>
+              <button>Read More</button>
+            </div>
+          </article>
+          <article class="post">
+            <div class="post-image">
+              <img src="https://makebct.net/wp-content/uploads/2024/06/hostingkr_domain1.png" />
+            </div>
+            <div class="post-content">
+              <div class="post-tags">
+                <div class="post-tag">워드프레스 유지보수</div>
+              </div>
+              <h3>호스팅KR로 기관 이전 완료</h3>
+              <p class="post-date">2024년 December 12일</p>
+              <p class="post-description">어제 6월 22일 카페24 리셀러에서 구입한 도메인을 호스팅KR로 기관 이전 신청을 했는데, 약 1일 지나니 기관 이전 완료된 것을 확인할 수 있었습니다.호스팅KR에서 기관 이전...</p>
+              <button>Read More</button>
+            </div>
+          </article>
+          <article class="post">
+            <div class="post-image">
+              <img src="https://makebct.net/wp-content/uploads/2024/06/hostingkr8-768x253.png" />
+            </div>
+            <div class="post-content">
+              <div class="post-tags">
+                <div class="post-tag">워드프레스 유지보수</div>
+              </div>
+              <h3>카페24 리셀러에서 등록한 도메인을 호스팅KR로 기관 이전 방법</h3>
+              <p class="post-date">2024년 June 22일</p>
+              <p class="post-description">지금까지는 카페24 리셀러에서 도메인을 저렴하게 구입할 수 있었는데, 최근 카페24 리셀러 계정에서도 도메인 비용을 올린다고 해서 다른 대안을 찾다 호스팅KR로 이전을 결심하고 기존...</p>
+              <button>Read More</button>
+            </div>
+          </article>
+          <article class="post">
+            <div class="post-image">
+              <img src="https://makebct.net/wp-content/uploads/2024/06/2024-06-14-15-21-46-768x229.png" />
+            </div>
+            <div class="post-content">
+              <div class="post-tags">
+                <div class="post-tag">AI 컨설팅</div>
+              </div>
+              <h3>범용기술(GPT)과 생산성의 역설(Productivity Paradox)</h3>
+              <p class="post-date">2024년 June 14일</p>
+              <p class="post-description">‘생산성 통계를 제외한 어디에서나 이제 AI‧머신러닝의 시대를 볼 수 있다’ (‘You can see the computer age everywhere but in the productivity...</p>
+              <button>Read More</button>
+            </div>
+          </article>
+        </div>
       </div>
-    </div>
-
-    <hr />
-
-    <!-- Popular POST -->
-    <div class="popularPost">
-      <h2>Popular POST</h2>
-      <div class="postSet oneLine">
-        <article class="post">
+      <hr />
+      <!-- Popular POST -->
+      <div class="popularPost">
+        <h2>Popular POST</h2>
+        <div class="postSet">
+          <article class="post">
+            <div class="post-image">
+              <img src="https://makebct.net/wp-content/uploads/2023/06/ubuntu-python.png" />
+            </div>
+            <div class="post-content">
+              <div class="post-tags">
+                <div class="post-tag">Python</div>
+                <div class="post-tag">클라우드</div>
+              </div>
+              <h3>Ubuntu 22.04 LTS에 Python 3.8 or 3.9 설치 방법</h3>
+              <p class="post-date">2023년 June 6일</p>
+              <p class="post-description">서버 : Vultr 클라우드OS: Ubuntu 22.04 LTS사용자 계정 생성하여 설치 진행함1. Start with the system updatesudo apt update...</p>
+              <button>Read More</button>
+            </div>
+          </article>
+          <article class="post">
+            <div class="post-image">
+              <img src="https://makebct.net/wp-content/uploads/2023/09/oracle2-768x654.png" />
+            </div>
+            <div class="post-content">
+              <div class="post-tags">
+                <div class="post-tag">클라우드</div>
+              </div>
+              <h3>오라클 클라우드 OCI 가입 드디어 성공 했습니다 (상세 후기)</h3>
+              <p class="post-date">2023년 September 7일</p>
+              <p class="post-description">2023년 2월 16일에 ‘오라클 클라우드 지급 검증 실패 글‘을 남긴 적이 있습니다.그 때 검색을 통해 해결 방법을 찾아 보았고, 당시 성공했던 분들의...</p>
+              <button>Read More</button>
+            </div>
+          </article>
+          <article class="post">
+            <div class="post-image">
+              <img src="https://makebct.net/wp-content/uploads/2023/08/mysql57.png" />
+            </div>
+            <div class="post-content">
+              <div class="post-tags">
+                <div class="post-tag">인공지능 대화형 플랫폼 BAP</div>
+              </div>
+              <h3>Ubuntu 20.04에 MySQL 5.7 설치</h3>
+              <p class="post-date">2023년 August 19일</p>
+              <p class="post-description">비씨티원 인공지능 서비스 플랫폼 BAP(Bctone AI service Platform)의 설치 환경은 공식적으로 Ubuntu 18.04와 MySQL 버전 5.7 입니다. 최근 Ubuntu...</p>
+              <button>Read More</button>
+            </div>
+          </article>
+          <article class="post">
+            <div class="post-image">
+              <img src="https://makebct.net/wp-content/uploads/2016/09/httrack2-768x687.jpg" />
+            </div>
+            <div class="post-content">
+              <div class="post-tags">
+                <div class="post-tag">워드프레스 제작 팁</div>
+              </div>
+              <h3>워드프레스 홈페이지를 HTML 파일로 변환하는 방법</h3>
+              <p class="post-date">2016년 September 11일</p>
+              <p class="post-description">이전에 워드프레스 홈페이지를 HTML로 변한할 수 있는지 요청이 왔을 때 Simply Static 플러그인으로 워드프레스 홈페이지를 HTML로 변환하는 방법을 테스트한 적이 있습니다....</p>
+              <button>Read More</button>
+            </div>
+          </article>
+          <article class="post">
+            <div class="post-image">
+              <img src="https://makebct.net/wp-content/uploads/2023/07/ufw.png" />
+            </div>
+            <div class="post-content">
+              <div class="post-tags">
+                <div class="post-tag">클라우드</div>
+              </div>
+              <h3>[Ubuntu] ufw 방화벽 설정</h3>
+              <p class="post-date">2023년 July 7일</p>
+              <p class="post-description">ufw란?iptables 보다 쉽고 직관적으로 방화벽 설정을 할 수 있는 패키지ufw 상태 관리 명령어ufw의 상태를 관리하는 명령어# ufw 활성화 $ sudo...</p>
+              <button>Read More</button>
+            </div>
+          </article>
+        </div>
+      </div>
+      <!-- Tags -->
+      <div class="tags">
+        <div class="tag">워드프레스 플러그인 (55)</div>
+        <div class="tag">워드프레스 홈페이지 제작 (39)</div>
+        <div class="tag">BCT AI Chatbot (32)</div>
+        <div class="tag">인공지능 챗봇 (29)</div>
+        <div class="tag">워드프레스 테마 (26)</div>
+        <div class="tag">초거대 AI (25)</div>
+        <div class="tag">인공지능 교육 (24)</div>
+        <div class="tag">워드프레스 보안 (22)</div>
+        <div class="tag">블로그코디 (21)</div>
+        <div class="tag">매뉴얼 (19)</div>
+        <div class="tag">워드프레스 유지보수 (18)</div>
+        <div class="tag">Django (16)</div>
+        <div class="tag">비씨티원 (13)</div>
+        <div class="tag">메이크비씨티 (12)</div>
+        <div class="tag">대화형 AI (12)</div>
+        <div class="tag">네이버 웹마스터도구 (11)</div>
+        <div class="tag">워드프레스 교육 (11)</div>
+        <div class="tag">워드프레스 SEO (11)</div>
+        <div class="tag">워드프레스 (10)</div>
+        <div class="tag">워드프레스 홈페이지 (10)</div>
+        <div class="tag">네이버 웹문서 상위등록 (10)</div>
+        <div class="tag">우커머스 (9)</div>
+        <div class="tag">chatGPT (8)</div>
+        <div class="tag">워드프레스 쇼핑몰 (8)</div>
+        <div class="tag">Design (8)</div>
+        <div class="tag">네이버 웹문서 최적화 (8)</div>
+        <div class="tag">css (8)</div>
+        <div class="tag">OpenAI (8)</div>
+        <div class="tag">AI 트레이닝 센터 (7)</div>
+        <div class="tag">카페24 (7)</div>
+        <div class="tag">웹디자이너 (6)</div>
+        <div class="tag">임베딩 (6)</div>
+        <div class="tag">비씨타운 (6)</div>
+        <div class="tag">AWS (6)</div>
+        <div class="tag">워드프레스 커뮤니티 (6)</div>
+        <div class="tag">워드프레스 멀티사이트 (6)</div>
+        <div class="tag">Kboard (6)</div>
+        <div class="tag">테마 (6)</div>
+        <div class="tag">워드프레스 설치 (6)</div>
+        <div class="tag">워드프레스 게시판 (6)</div>
+        <div class="tag">외모 (6)</div>
+        <div class="tag">워드프레스 마이그레이션 (5)</div>
+        <div class="tag">네이버 검색 (5)</div>
+        <div class="tag">구글 웹마스터도구 (5)</div>
+        <div class="tag">설정 (5)</div>
+        <div class="tag">워드프레스 무료교육 (5)</div>
+        <div class="tag">편집디자인 (5)</div>
+        <div class="tag">워드프레스 점유율 (5)</div>
+        <div class="tag">BC TOWN™ (5)</div>
+        <div class="tag">BCT 테마 (4)</div>
+        <div class="tag">데이터베이스 연결 중 에러 (4)</div>
+        <div class="tag">관리 (4)</div>
+        <div class="tag">클라우드 (4)</div>
+        <div class="tag">가입형 워드프레스 (4)</div>
+        <div class="tag">워드프레스 버전 (4)</div>
+        <div class="tag">WSL2 (4)</div>
+        <div class="tag">워드프레스 카테고리 (4)</div>
+        <div class="tag">워드프레스 사용량 (4)</div>
+        <div class="tag">워드프레스 페이스북 (4)</div>
+        <div class="tag">워드프레스 관리자 (4)</div>
+      </div>
+      <!-- Brand -->
+      <div class="brands">
+        <a>
+          <img src="https://makebct.net/wp-content/uploads/2023/08/logo.png" />
+        </a>
+        <a>
           <img
-            src="https://makebct.net/wp-content/uploads/2023/06/ubuntu-python.png"
+            src="https://makebct.net/wp-content/uploads/2023/08/ffm_nomu.png"
           />
-          <div>
-            <div class="tag">Python인공지능 챗봇 실전 개발</div>
-            <h3>플라스크 + 리액트 프로젝트 환경구축</h3>
-            <p class="date"></p>
-            <p class="description"></p>
-            <button>Read More</button>
-          </div>
-        </article>
+        </a>
+        <a>
+          <img
+            src="https://makebct.net/wp-content/uploads/2023/08/ffm_bctmedia.png"
+          />
+        </a>
+        <a>
+          <img
+            src="https://makebct.net/wp-content/uploads/2023/08/ffm_bctshowcase.png"
+          />
+        </a>
+        <a>
+          <img
+            src="https://makebct.net/wp-content/uploads/2023/08/ffm_blog.png"
+          />
+        </a>
       </div>
     </div>
-
-    <!-- Tags -->
-    <div class="tags">
-      <div>워드프레스 플러그인 (55)</div>
-      <div>워드프레스 플러그인 (55)</div>
-      <div>워드프레스 플러그인 (55)</div>
-      <div>워드프레스 플러그인 (55)</div>
-      <div>워드프레스 플러그인 (55)</div>
-    </div>
-
-    <!-- Brand -->
-    <div class="brands">
-      <a>
-        <img src="https://makebct.net/wp-content/uploads/2023/08/logo.png" />
-      </a>
-      <a>
-        <img
-          src="https://makebct.net/wp-content/uploads/2023/08/ffm_nomu.png"
-        />
-      </a>
-      <a>
-        <img
-          src="https://makebct.net/wp-content/uploads/2023/08/ffm_bctmedia.png"
-        />
-      </a>
-      <a>
-        <img
-          src="https://makebct.net/wp-content/uploads/2023/08/ffm_bctshowcase.png"
-        />
-      </a>
-      <a>
-        <img
-          src="https://makebct.net/wp-content/uploads/2023/08/ffm_blog.png"
-        />
-      </a>
-    </div>
+    
 
     <footer>
       <p><strong>#AI #OpenAI #Chatbot #Cloud #WordPress</strong></p>
