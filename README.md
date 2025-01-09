@@ -3,7 +3,8 @@
 ## 표
 | 원본 사이트 | 사용 기술     | 학습 포인트            | 프로젝트 기간 | 깃허브 링크  |
 |-------------|----------------|-----------------------|-------------|----------------------------------------|
-| [makeBCT](https://makebct.net/) | HTML, CSS |  | 2024.01.06~01.08 | [GitHub](https://github.com/wonggamggik/CloneCoding/tree/main/makeBCT)  |
+| [makeBCT](https://makebct.net/) | HTML, CSS |  | 2025.01.06~2025.01.08 | [GitHub](https://github.com/wonggamggik/CloneCoding/tree/main/makeBCT)  |
+| [prophecycoal](https://www.prophecycoal.com/) | HTML, CSS |  | 2025.01.09~2025.01.11 | [GitHub](https://github.com/wonggamggik/CloneCoding/tree/main/prophecycoal)  |
 
 
 ## 소감문
@@ -27,3 +28,5 @@
   - display:flex와 flex (ex: flex-grow: 1; flex-shrink: 1; flex-basis: 0;)요소에 대해 아무것도 모르는 것 같다. 다시 공부할 것
   - calc() 사용법 확인
   - 미디어 쿼리 사용법 공부
+
+### prophecycoal
